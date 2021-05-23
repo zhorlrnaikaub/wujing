@@ -1,0 +1,134 @@
+@charset "utf-8";
+@import "scss_init.scss";
+@import "common.scss";
+.web {
+    width: 100%;
+    height: 1000px;
+    background: rgba(0, 0, 0, .3);
+    position: relative;
+    .denglu {
+        width: 480px;
+        height: 410px;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background: #FFFFFF;
+        .top {
+            background: #f54343;
+            height: 75px;
+            font-size: 20px;
+            color: #FFFFFF;
+            padding-left: 20px;
+            .yonghu1_icon {
+                font-size: 20px;
+                line-height: 75px;
+            }
+            span {
+                line-height: 75px;
+            }
+        }
+        form {
+            width: 252px;
+            margin: 0 auto;
+            padding-top: 38px;
+            .row {
+                color: #666666;
+                margin-bottom: 20px;
+                font-size: 0;
+                span {
+                    display: inline-block;
+                    width: 52px;
+                    font-size: 14px;
+                }
+                input {
+                    width: 198px;
+                    height: 28px;
+                    font-size: 14px;
+                    border: 1px solid #e1e1e1;
+                }
+            }
+            .row:nth-of-type(2){
+                span{
+                    letter-spacing: 10px;
+                }
+            }
+            .yanzhengma {
+                color: #666666;
+                font-size: 0;
+                margin-bottom: 24px;
+                span {
+                    display: inline-block;
+                    width: 52px;
+                    font-size: 14px;
+                }
+                input {
+                    width: 68px;
+                    height: 28px;
+                    font-size: 14px;
+                    border: 1px solid #e1e1e1;
+                }
+                .img_box {
+                    display: inline-block;
+                    width: 75px;
+                    height: 30px;
+                    margin-left: 6px;
+                    margin-right: 5px;
+                    vertical-align: bottom;
+                    img {
+                        width: 100%;
+                    }
+                }
+                a {
+                    font-size: 12px;
+                    &:link {
+                        color: #004a99;
+                    }
+                    &:visited {
+                        color: #004a99;
+                    }
+                }
+            }
+            .checkbox_liangzhou {
+                margin-left: 52px;
+                margin-bottom: 28px;
+                input {
+                    font-size: 12px;
+                }
+                label {
+                    color: #E1E1E1;
+                    font-size: 12px;
+                }
+            }
+            .submit_denglu {
+                width: 110px;
+                height: 36px;
+                background: #f54343;
+                color: #FFFFFF;
+                border: 0px solid #FFFFFF;
+                margin-left: 52px;
+                margin-right: 19px;
+            }
+            a:last-of-type {
+                font-size: 12px;
+                &:link {
+                    color: #004a99;
+                }
+                &:visited {
+                    color: #004a99;
+                }
+            }
+        }
+        .denglu_bottom{
+            font-size: 12px;
+            text-align: center;
+            margin-top: 34px;
+            span{
+                color: #747474;
+            }
+            a{
+                color: #004a99;
+            }
+        }
+    }
+}

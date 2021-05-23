@@ -1,0 +1,184 @@
+@charset "UTF-8";
+.whdgyyx_shangbian_box {
+  width: 100%;
+  margin: 0 auto;
+  background: #1a1d60; }
+
+.whdgyyx_shangbian {
+  width: 1200px;
+  margin: 0 auto;
+  text-align: right;
+  background: #1a1d60; }
+
+.whdgyyx_shangbian_huise_box {
+  width: 100%;
+  margin: 0 auto;
+  background: #d4d2e0; }
+
+.whdgyyx_shangbian_huise {
+  width: 1200px;
+  height: 100px;
+  margin: 0 auto;
+  background: #d4d2e0; }
+  .whdgyyx_shangbian_huise p:nth-child(1) {
+    line-height: 100px;
+    font-size: 28px;
+    font-family: "微软雅黑";
+    color: #cf1f3f; }
+  .whdgyyx_shangbian_huise p:nth-child(7) {
+    line-height: 100px;
+    font-family: "微软雅黑";
+    background: red;
+    padding: 0 30px; }
+    .whdgyyx_shangbian_huise p:nth-child(7) a {
+      color: white; }
+  .whdgyyx_shangbian_huise p {
+    display: inline-block;
+    margin: 0 20px;
+    line-height: 100px;
+    font-family: "微软雅黑";
+    padding: 0 30px; }
+    .whdgyyx_shangbian_huise p a {
+      color: black; }
+      .whdgyyx_shangbian_huise p a:hover {
+        color: white;
+        background: red; }
+
+.sysp_box {
+  display: inline-block;
+  margin-left: 80px; }
+
+.quanbuyouxi_box {
+  width: 1200px;
+  display: inline-block;
+  margin: 20px 0; }
+  .quanbuyouxi_box p {
+    display: inline-block;
+    line-height: 40px;
+    text-align: center;
+    margin: 0 10px;
+    padding: 0 8px; }
+  .quanbuyouxi_box p:first-child {
+    width: 80px;
+    height: 40px;
+    background: red; }
+  .quanbuyouxi_box a {
+    color: black; }
+  .quanbuyouxi_box p:hover {
+    background: red; }
+
+.qbyx_zuobian {
+  background: #f6f7fb; }
+
+.youyi_dabiankuang {
+  width: 1200px;
+  margin: 0 auto; }
+
+.hcyy_box {
+  padding: 28px 0 16px 0; }
+
+.hcyy_box1 {
+  padding: 28px 0 0 0; }
+
+.hcyy_shibing {
+  width: 320px;
+  height: 290px; }
+
+.hcyy_shibing .tidaobianyuan_box {
+  margin: 5px 5px; }
+  .hcyy_shibing .tidaobianyuan_box span {
+    font-size: 14px;
+    font-family: "微软雅黑";
+    width: 290px;
+    line-height: 20px;
+    overflow: hidden;
+    display: block;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e1e1e1; }
+    .hcyy_shibing .tidaobianyuan_box span a {
+      color: black; }
+    .hcyy_shibing .tidaobianyuan_box span a:hover {
+      text-decoration: underline;
+      color: red; }
+  .hcyy_shibing .tidaobianyuan_box p {
+    font-size: 20px;
+    font-family: "微软雅黑"; }
+    .hcyy_shibing .tidaobianyuan_box p a {
+      color: black; }
+    .hcyy_shibing .tidaobianyuan_box p a:hover {
+      color: red; }
+
+.jinruyouxi_box .jinruyouxi {
+  display: inline-block; }
+  .jinruyouxi_box .jinruyouxi a {
+    font-size: 12px;
+    font-family: "微软雅黑";
+    vertical-align: top; }
+
+.zuojiantou {
+  display: inline-block;
+  text-align: right; }
+
+.hsjx {
+  width: 4px;
+  height: 20px;
+  background: red;
+  display: inline-block; }
+
+.hcyy_box {
+  width: 910px;
+  display: inline-block; }
+
+.hcyy_box1 {
+  width: 260px; }
+  .hcyy_box1 .hcyy {
+    padding: 20px 0 10px 0; }
+
+.hcyy_shibing {
+  display: inline-block;
+  width: 910px; }
+  .hcyy_shibing .tidaobianyuan_box {
+    display: inline-block; }
+
+.wzry_bigbox {
+  margin-top: 16px; }
+
+.wzry_box {
+  border-top: 1px solid #ebe8e5;
+  border-left: 1px solid #ebe8e5; }
+  .wzry_box .wzry {
+    display: inline-block;
+    margin: 18px 14px 16px 20px; }
+  .wzry_box .dhty {
+    margin-top: 18px; }
+    .wzry_box .dhty p {
+      margin-bottom: 10px;
+      font-size: 16px;
+      font-family: "微软雅黑";
+      font-weight: bold; }
+      .wzry_box .dhty p a {
+        color: black; }
+        .wzry_box .dhty p a:hover {
+          color: red; }
+    .wzry_box .dhty span {
+      font-size: 14px;
+      font-family: "微软雅黑";
+      color: #dfdfdf; }
+      .wzry_box .dhty span a {
+        color: black; }
+        .wzry_box .dhty span a:hover {
+          color: red;
+          text-decoration: underline; }
+
+.dhty {
+  display: inline-block; }
+
+.qbyx_zuobian {
+  width: 910px;
+  display: inline-block; }
+
+hr {
+  width: 1200px;
+  margin: 0 auto; }
+
+/*# sourceMappingURL=whdgyyx.css.map */

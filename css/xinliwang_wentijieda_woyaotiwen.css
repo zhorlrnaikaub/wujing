@@ -1,0 +1,63 @@
+@import url(../css/xinliwang_common.css);
+@import url(../css/init.css);
+.web section {
+  width: 1000px;
+  margin: 0 auto; }
+  .web section .woyaotiwen_top {
+    font-size: 14px;
+    color: #8f8f90;
+    margin-top: 18px;
+    margin-bottom: 18px; }
+  .web section .woyaotiwen_middle {
+    height: 640px;
+    width: 1000px;
+    background: white; }
+    .web section .woyaotiwen_middle .woyaotiwen_zhongjian {
+      width: 805px;
+      margin: 0 auto;
+      margin-top: 100px; }
+      .web section .woyaotiwen_middle .woyaotiwen_zhongjian .biaoti .biaoti_left {
+        display: inline-block; }
+        .web section .woyaotiwen_middle .woyaotiwen_zhongjian .biaoti .biaoti_left div {
+          font-size: 12px;
+          color: #afafaf; }
+        .web section .woyaotiwen_middle .woyaotiwen_zhongjian .biaoti .biaoti_left p {
+          color: #333333;
+          font-size: 14px; }
+      .web section .woyaotiwen_middle .woyaotiwen_zhongjian .biaoti .biaoti_right {
+        display: inline-block;
+        vertical-align: top;
+        margin-left: 57px; }
+        .web section .woyaotiwen_middle .woyaotiwen_zhongjian .biaoti .biaoti_right input {
+          width: 500px; }
+      .web section .woyaotiwen_middle .woyaotiwen_zhongjian .neirong {
+        margin-top: 25px; }
+        .web section .woyaotiwen_middle .woyaotiwen_zhongjian .neirong .neirong_left {
+          display: inline-block; }
+          .web section .woyaotiwen_middle .woyaotiwen_zhongjian .neirong .neirong_left div {
+            font-size: 12px;
+            color: #afafaf; }
+          .web section .woyaotiwen_middle .woyaotiwen_zhongjian .neirong .neirong_left p {
+            color: #333333;
+            font-size: 14px; }
+        .web section .woyaotiwen_middle .woyaotiwen_zhongjian .neirong .neirong_right {
+          display: inline-block;
+          vertical-align: top;
+          margin-left: 45px; }
+          .web section .woyaotiwen_middle .woyaotiwen_zhongjian .neirong .neirong_right textarea {
+            width: 700px;
+            height: 255px; }
+      .web section .woyaotiwen_middle .woyaotiwen_zhongjian .tijiao {
+        margin-top: 40px;
+        margin-left: 100px; }
+        .web section .woyaotiwen_middle .woyaotiwen_zhongjian .tijiao input {
+          width: 120px;
+          height: 36px;
+          background: #0064b9;
+          border-radius: 5px 5px 5px 5px;
+          color: white; }
+        .web section .woyaotiwen_middle .woyaotiwen_zhongjian .tijiao input:hover {
+          background: green;
+          color: red; }
+
+/*# sourceMappingURL=xinliwang_wentijieda_woyaotiwen.css.map */

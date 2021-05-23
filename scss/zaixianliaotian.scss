@@ -1,0 +1,262 @@
+@charset "utf-8";
+@import "scss_init.scss";
+@import "common.scss";
+.web {
+    width: 100%;
+    section {
+        background: #F1f1f1;
+        padding-bottom: 30px;
+        .section_box {
+            width: 980px;
+            margin: 0 auto;
+            .top {
+                color: #888888;
+                font-size: 14px;
+                padding-top: 20px;
+                padding-bottom: 20px;
+                a:link {
+                    color: #888888;
+                }
+                a:visited {
+                    color: #888888;
+                }
+            }
+            .mid {
+                border: 1px solid #DFDFDF;
+                position: relative;
+                .fenlei {
+                    background: #f8f8f8;
+                    padding-left: 40px;
+                    padding-top: 20px;
+                    padding-bottom: 20px;
+                    border-bottom: 1px solid #eeeeee;
+                    .img_box {
+                        width: 50px;
+                        height: 50px;
+                        margin-right: 10px;
+                        img {
+                            width: 100%;
+                        }
+                    }
+                    .qingganjiaoliu {
+                        a {
+                            font-size: 18px;
+                            &:link {
+                                color: #000000;
+                            }
+                            &:visited {
+                                color: #000000;
+                            }
+                        }
+                        .fatie_yonghu {
+                            margin-top: 8px;
+                            .fatie_icon {
+                                font-size: 15px;
+                                color: #ff8889;
+                            }
+                            span {
+                                display: inline-block;
+                                font-size: 12px;
+                                color: #999999;
+                                margin-right: 25px;
+                            }
+                            .yonghu_icon {
+                                color: #FF8889;
+                                font-size: 12px;
+                            }
+                        }
+                    }
+                }
+                .tiezi {
+                    background: #FFFFFF;
+                    padding: 40px;
+                    margin-bottom: 6px;
+                    border-bottom: 1px solid #DFDFDF;
+                    .tiezi_title {
+                        width: 900px;
+                        padding-bottom: 25px;
+                        border-bottom: 1px solid #EEEEEE;
+                        span:first-of-type {
+                            font-size: 12px;
+                            display: inline-block;
+                            width: 29px;
+                            height: 16px;
+                            background: #59bd48;
+                            vertical-align: text-top;
+                        }
+                        span:nth-of-type(2) {
+                            font-size: 20px;
+                            display: inline-block;
+                        }
+                    }
+                    .tiezi_box {
+                        padding-top: 30px;
+                        padding-bottom: 40px;
+                        display: table;
+                        .yonghu {
+                            width: 125px;
+                            text-align: center;
+                            margin-right: 35px;
+                            .img_box {
+                                width: 65px;
+                                height: 65px;
+                                margin: 0 auto;
+                                img {
+                                    width: 100%;
+                                }
+                            }
+                            span {
+                                font-size: 13px;
+                            }
+                        }
+                        .tiezi_content {
+                            p {
+                                font-size: 14px;
+                                margin-bottom: 28px;
+                            }
+                            .xiangguan {
+                                width: 738px;
+                                position: relative;
+                                .fenxiang {
+                                    .img_box {
+                                        display: inline-block;
+                                        width: 16px;
+                                        height: 16px;
+                                        margin-right: 7px;
+                                    }
+                                }
+                                .fatie_time {
+                                    position: absolute;
+                                    right: 0;
+                                    bottom: 95px;
+                                    span {
+                                        font-size: 10px;
+                                    }
+                                    .fatie_time_icon {
+                                        color: #ffa3a7;
+                                        font-size: 14px;
+                                    }
+                                }
+                                .caozuo {
+                                    margin-top: 45px;
+                                    text-align: center;
+                                    font-size: 0;
+                                    span {
+                                        display: inline-block;
+                                        width: 148px;
+                                        height: 48px;
+                                        border: 1px solid #EEEEEE;
+                                        background: linear-gradient(#fefefe, #fcfcfc);
+                                        &:first-of-type {
+                                            border-right: 0px solid #FFFFFF;
+                                        }
+                                        &:nth-of-type(2) {
+                                            border-right: 0px solid #FFFFFF;
+                                        }
+                                        .caozuo_icon {
+                                            line-height: 48px;
+                                            color: #ffa3a7;
+                                            margin-right: 7px;
+                                            font-size: 16px;
+                                        }
+                                        input {
+                                            background: #FFFFFF;
+                                            font-size: 12px;
+                                            border: 0px solid #FFFFFF;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                .other_tiezi {
+                    width: 978px;
+                    margin: 0 auto;
+                    background: #FFFFFF;
+                    .tiezi_bottom_right {
+                        i {}
+                    }
+                    .tiezi_box {
+                        padding-top: 30px;
+                        padding: 40px;
+                        display: table;
+                        position: relative;
+                        border-bottom: 1px solid #EEEEEE;
+                        .yonghu {
+                            width: 125px;
+                            text-align: center;
+                            margin-right: 35px;
+                            .img_box {
+                                width: 65px;
+                                height: 65px;
+                                margin: 0 auto;
+                                img {
+                                    width: 100%;
+                                }
+                            }
+                            span {
+                                font-size: 13px;
+                            }
+                        }
+                        .tiezi_content {
+                            width: 738px;
+                            p {
+                                font-size: 14px;
+                                margin-bottom: 28px;
+                            }
+                        }
+                        .fatie_time {
+                            position: absolute;
+                            right: 40px;
+                            bottom: 16px;
+                            span {
+                                font-size: 10px;
+                            }
+                            input {
+                                border: 0px solid #FFFFFF;
+                                cursor: pointer;
+                                background: #FFFFFF;
+                                color: #4fa5d2;
+                                font-size: 11px;
+                            }
+                        }
+                    }
+                }
+                .tiezi__bottom_right {
+                    position: absolute;
+                    bottom: 40px;
+                    right: -78px;
+                    a:first-of-type {
+                        display: block;
+                        width: 50px;
+                        height: 50px;
+                        margin-bottom: 5px;
+                        .shoucang {
+                            background: #fd9db6;
+                            font-size: 50px;
+                        }
+                    }
+                    a:last-of-type {
+                        display: block;
+                        width: 50px;
+                        height: 50px;
+                        .returntop {
+                            background: #fd9db6;
+                            font-size: 50px;
+                        }
+                    }
+                    a:link {
+                        color: #FFFFFF;
+                    }
+                    a:visited {
+                        color: #FFFFFF;
+                    }
+                }
+            }
+        }
+    }
+    footer{
+        background: #FFFFFF;
+    }
+}

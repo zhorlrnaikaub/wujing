@@ -1,0 +1,12 @@
+@charset "utf-8";
+@import "news_common.scss";
+@import "news_init.scss";
+@import "news_lbxx.scss";
+@import "news_lb.scss";
+.aqdjc_video{
+    text-align: center;
+}
+.aqdjc_video video{
+    width: 820px;
+    height: 470px;
+}

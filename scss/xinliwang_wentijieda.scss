@@ -1,0 +1,163 @@
+@charset "utf-8";
+@import "../css/init.css";
+@import "../css/xinliwang_common.css";
+.web{
+    section{
+        width: 1200px;
+        margin: 0 auto;
+        .top{
+            height: 50px;
+            font-size: 14px;
+            font-family: "微软雅黑";
+            color: #969797;
+            line-height: 50px;
+            width: 1200px;
+            margin: 0 auto;
+            
+        }
+        .left_top{
+            width: 880px;
+            dl{
+                height: 18px;
+                width: 6px;
+                background: #2071c2;
+                margin-left: 12px;
+                margin-top: 14px;
+                display: inline-block;
+            }
+            p{
+                font-size: 16px;
+                font-weight: bold;
+                display: inline-block;
+            }
+        }
+        .left_bottom{
+            width: 880px;
+            display: inline-block;
+            .wenti{
+                margin-top: 40px;
+                div{
+                    display: inline-block;
+                    vertical-align: top;
+                    nav{
+                        font-size: 14px;
+                        color: #a7a8a8;
+                        width: 700px;
+                        margin-left: 14px;
+                        padding-top: 20px;
+                    }
+                    div a{
+                        color: #5a7bb7;
+                        font-size: 14px;
+                        font-weight: bold;
+                        padding-top: 10px;
+                        margin-left: 14px;
+                    }
+                }
+            }
+        }
+        .right{
+            height: 100px;
+            width: 290px;
+            background:white;
+            margin-bottom:25px;
+            .tiwen{
+                background: #2dc3e8;
+                color: white;
+                font-size: 14px;
+                height: 36px;
+                width: 152px;
+                text-align: center;
+                line-height: 36px;
+                margin: 0 auto;
+                margin-top: 12px;
+            }
+            .tiwen:hover{
+                background: red;
+                color: green;
+            }
+            .wenzi{
+                font-size: 12px;
+                font-family: "微软雅黑";
+                color: #989898;
+                text-align: center;
+                margin-top: 10px;
+            }
+        }
+        .right_bottom{
+            background: white;
+            width: 290px;
+            padding-bottom: 20px;
+            .xinlixunlian{
+                text-align: center;
+                margin-top: 12px;
+                .bottom_blue{
+                height: 18px;
+                width: 6px;
+                background: #2071c2;
+                display: inline-block;
+                }
+                .wenzi{
+                    font-size: 16px;
+                    font-weight: bold;
+                    display: inline-block;
+                }
+            }
+            .tupian{
+                    margin-left: 16px;
+                    margin-top: 21px;
+                    position: relative;
+                    span{
+                        font-size: 14px;
+                        font-family: "微软雅黑";
+                        color: #929292;
+                        margin: 0px 0 0 10px;
+                        vertical-align: top;
+                        position: absolute;
+                        top: 10px;
+                       
+                    }
+                    p{
+                        display: inline-block;
+                    }
+                }
+        }
+        
+        
+        .left{
+           width: 880px;
+           background: white;
+           display: inline-block;
+        }
+        
+       
+    }
+}
+
+
+////////////////////////////////////////////////////////////////////
+.web{
+    .xuanye{
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 33px;
+        div{
+            display: inline-block;
+            width: 46px;
+            height: 46px;
+            line-height: 46px;
+        }
+        p{
+            display:inline-block;
+            width: 46px;
+            height: 46px;
+            line-height: 46px;
+        }
+        div:hover{
+            color: white;
+            background: #0074c6;
+        }
+    }
+}
+///////////////////////////////////////////
+

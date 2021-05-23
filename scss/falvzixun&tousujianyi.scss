@@ -1,0 +1,473 @@
+@charset "utf-8";
+@import "scss_init.scss";
+@import "common.scss";
+.web {
+    width: 100%;
+    section {
+        background: #FFFFFF;
+        background: linear-gradient(#95cef3, #ffffff 20%);
+        padding-bottom: 30px;
+        .section_box {
+            width: 1200px;
+            margin: 0 auto;
+            .top {
+                color: #888888;
+                font-size: 14px;
+                padding-top: 20px;
+                padding-bottom: 20px;
+                a:link {
+                    color: #888888;
+                }
+                a:visited {
+                    color: #888888;
+                }
+            }
+            .bottom {
+                border: 1px solid #d1d1d1;
+                background: #FFFFFF;
+                form {
+                    width: 1140px;
+                    margin: 30px auto 0;
+                    position: relative;
+                    padding-bottom: 170px;
+                    .lianxixinxi {
+                        margin-bottom: 71px;
+                        p {
+                            font-size: 22px;
+                            padding-bottom: 14px;
+                            border-bottom: 1px solid #d1d1d1;
+                        }
+                        .lianxixinxi_content {
+                            padding-top: 30px;
+                            font-size: 16px;
+                            text-align: left;
+                            margin-left: 124px;
+                            .input {
+                                margin-bottom: 15px;
+                                position: relative;
+                                .input_left {
+                                    display: inline-block;
+                                    padding-right: 80px;
+                                    height: 32px;
+                                    line-height: 32px;
+                                    span:first-of-type {
+                                        display: inline-block;
+                                        width: 81px;
+                                        height: 32px;
+                                        vertical-align: middle;
+                                        overflow: hidden;
+                                        text-align: justify;
+                                        &::after {
+                                            content: "";
+                                            display: inline-block;
+                                            width: 100%;
+                                        }
+                                    }
+                                    span:last-of-type {
+                                        color: #ff0000;
+                                        margin-right: 16px;
+                                    }
+                                    .input_box {
+                                        width: 298px;
+                                        height: 30px;
+                                        border: 1px solid #d1d1d1;
+                                    }
+                                }
+                                .input_right {
+                                    display: inline-block;
+                                    padding-right: 80px;
+                                    height: 32px;
+                                    line-height: 32px;
+                                    span:first-of-type {
+                                        display: inline-block;
+                                        width: 81px;
+                                        height: 32px;
+                                        margin-right: 6px;
+                                        vertical-align: middle;
+                                        overflow: hidden;
+                                        text-align: justify;
+                                        margin-right: 27px;
+                                        &::after {
+                                            content: "";
+                                            display: inline-block;
+                                            width: 100%;
+                                        }
+                                    }
+                                    .input_box {
+                                        width: 298px;
+                                        height: 30px;
+                                        border: 1px solid #d1d1d1;
+                                    }
+                                }
+                            }
+                            .single {
+                                display: inline-block;
+                                padding-right: 80px;
+                                height: 32px;
+                                line-height: 32px;
+                                span:first-of-type {
+                                    display: inline-block;
+                                    width: 81px;
+                                    height: 32px;
+                                    vertical-align: middle;
+                                    overflow: hidden;
+                                    text-align: justify;
+                                    &::after {
+                                        content: "";
+                                        display: inline-block;
+                                        width: 100%;
+                                    }
+                                }
+                                span:last-of-type {
+                                    color: #ff0000;
+                                    margin-right: 16px;
+                                }
+                                .input_box {
+                                    width: 298px;
+                                    height: 30px;
+                                    border: 1px solid #d1d1d1;
+                                }
+                            }
+                        }
+                    }
+                    .suqiuneirong {
+                        p {
+                            font-size: 22px;
+                            padding-bottom: 14px;
+                            border-bottom: 1px solid #d1d1d1;
+                        }
+                        .suqiuneirong_content {
+                            margin-top: 30px;
+                            margin-bottom: 37px;
+                            font-size: 16px;
+                            margin-left: 124px;
+                            .suqiu_leixing {
+                                margin-bottom: 14px;
+                                height: 32px;
+                                line-height: 32px;
+                                position: relative;
+                                span {
+                                    display: inline-block;
+                                    width: 79px;
+                                    height: 32px;
+                                    vertical-align: middle;
+                                    overflow: hidden;
+                                    text-align: justify;
+                                    margin-right: 28px;
+                                    &::after {
+                                        content: "";
+                                        display: inline-block;
+                                        width: 100%;
+                                    }
+                                }
+                                .radio {
+                                    display: inline-block;
+                                    width: 12px;
+                                    height: 12px;
+                                    border-radius: 6px;
+                                    border: 1px solid #cacaca;
+                                    vertical-align: middle;
+                                    position: relative;
+                                }
+                                .radio::after {
+                                    content: "";
+                                    display: inline-block;
+                                    width: 10px;
+                                    height: 10px;
+                                    border-radius: 5px;
+                                    background: #ededed;
+                                    position: absolute;
+                                    top: 1px;
+                                    left: 1px;
+                                }
+                                #falvzixun:checked+.radio {
+                                    border: 1px solid #0c7ccc;
+                                }
+                                #falvzixun:checked+.radio::after {
+                                    background: #0d7dcc;
+                                }
+                                #tousu:checked+.radio {
+                                    border: 1px solid #0c7ccc;
+                                }
+                                #tousu:checked+.radio::after {
+                                    background: #0d7dcc;
+                                }
+                                #jianyi:checked+.radio {
+                                    border: 1px solid #0c7ccc;
+                                }
+                                #jianyi:checked+.radio::after {
+                                    background: #0d7dcc;
+                                }
+                                label {
+                                    font-size: 14px;
+                                    margin-right: 44px;
+                                }
+                                input:first-of-type {
+                                    position: absolute;
+                                    top: 12px;
+                                    left: 112px;
+                                    opacity: 0;
+                                    z-index: 1;
+                                }
+                                input:nth-of-type(2) {
+                                    position: absolute;
+                                    top: 12px;
+                                    left: 237px;
+                                    opacity: 0;
+                                    z-index: 1;
+                                }
+                                input:nth-of-type(3) {
+                                    position: absolute;
+                                    top: 12px;
+                                    left: 332px;
+                                    opacity: 0;
+                                    z-index: 1;
+                                }
+                            }
+                            .suqiu_gongkai {
+                                margin-bottom: 14px;
+                                height: 32px;
+                                line-height: 32px;
+                                position: relative;
+                                span:first-of-type {
+                                    display: inline-block;
+                                    width: 79px;
+                                    height: 32px;
+                                    vertical-align: middle;
+                                    overflow: hidden;
+                                    text-align: justify;
+                                    &::after {
+                                        content: "";
+                                        display: inline-block;
+                                        width: 100%;
+                                    }
+                                }
+                                span:nth-of-type(2) {
+                                    color: #df0000;
+                                    padding-left: 5px;
+                                    padding-right: 11px;
+                                }
+                                label:first-of-type {
+                                    font-size: 14px;
+                                    margin-right: 57px;
+                                }
+                                label:nth-of-type(2) {
+                                    font-size: 14px;
+                                    margin-right: 55px;
+                                }
+                                span:last-of-type {
+                                    display: inline-block;
+                                    font-size: 14px;
+                                    color: #df0000;
+                                    background: #fdf4f4;
+                                    padding-left: 11px;
+                                    padding-right: 23px;
+                                }
+                                .radio {
+                                    display: inline-block;
+                                    width: 12px;
+                                    height: 12px;
+                                    border-radius: 6px;
+                                    border: 1px solid #cacaca;
+                                    vertical-align: middle;
+                                    position: relative;
+                                }
+                                .radio::after {
+                                    content: "";
+                                    display: inline-block;
+                                    width: 10px;
+                                    height: 10px;
+                                    border-radius: 5px;
+                                    background: #ededed;
+                                    position: absolute;
+                                    top: 1px;
+                                    left: 1px;
+                                }
+                                #shi:checked+.radio {
+                                    border: 1px solid #0c7ccc;
+                                }
+                                #shi:checked+.radio::after {
+                                    background: #0d7dcc;
+                                }
+                                #fou:checked+.radio {
+                                    border: 1px solid #0c7ccc;
+                                }
+                                #fou:checked+.radio::after {
+                                    background: #0d7dcc;
+                                }
+                                input:first-of-type {
+                                    position: absolute;
+                                    top: 12px;
+                                    left: 114px;
+                                    opacity: 0;
+                                    z-index: 1;
+                                }
+                                input:nth-of-type(2) {
+                                    position: absolute;
+                                    top: 12px;
+                                    left: 207px;
+                                    opacity: 0;
+                                    z-index: 1;
+                                }
+                            }
+                            .suqiu_biaoti {
+                                margin-bottom: 14px;
+                                height: 32px;
+                                line-height: 32px;
+                                position: relative;
+                                span:first-of-type {
+                                    display: inline-block;
+                                    width: 79px;
+                                    height: 32px;
+                                    vertical-align: middle;
+                                    overflow: hidden;
+                                    text-align: justify;
+                                    &::after {
+                                        content: "";
+                                        display: inline-block;
+                                        width: 100%;
+                                    }
+                                }
+                                span:nth-of-type(2) {
+                                    color: #df0000;
+                                    padding-left: 5px;
+                                    padding-right: 11px;
+                                }
+                                select {
+                                    width: 298px;
+                                    height: 32px;
+                                    border: 1px solid #d1d1d1;
+                                    position: absolute;
+                                    top: 0;
+                                    left: 112px;
+                                }
+                            }
+                            .suqiu_neirong {
+                                margin-bottom: 14px;
+                                .suqiu_neirong_left {
+                                    display: inline-block;
+                                    span:first-of-type {
+                                        display: inline-block;
+                                        width: 79px;
+                                        height: 32px;
+                                        overflow: hidden;
+                                        text-align: justify;
+                                        vertical-align: middle;
+                                        &::after {
+                                            content: "";
+                                            display: inline-block;
+                                            width: 100%;
+                                        }
+                                    }
+                                    span:nth-of-type(2) {
+                                        color: #df0000;
+                                        padding-left: 5px;
+                                        padding-right: 11px;
+                                    }
+                                    span:nth-of-type(3) {
+                                        display: block;
+                                        font-size: 14px;
+                                        color: #666666;
+                                    }
+                                }
+                                textarea {
+                                    display: inline-block;
+                                    width: 778px;
+                                    height: 260px;
+                                    border: 1px solid #D1D1D1;
+                                    resize: none;
+                                    margin-left: 5px;
+                                }
+                            }
+                            .shangchuan {
+                                margin-bottom: 14px;
+                                height: 32px;
+                                line-height: 32px;
+                                span:first-of-type {
+                                    display: inline-block;
+                                    width: 79px;
+                                    height: 32px;
+                                    vertical-align: middle;
+                                    overflow: hidden;
+                                    text-align: justify;
+                                    vertical-align: middle;
+                                    margin-right: 28px;
+                                    &::after {
+                                        content: "";
+                                        display: inline-block;
+                                        width: 100%;
+                                    }
+                                }
+                                .xuanzewenjian {
+                                    display: inline-block;
+                                    vertical-align: middle;
+                                    width: 300px;
+                                    height: 30px;
+                                    border: 1px solid #D1D1D1;
+                                    position: relative;
+                                    input {
+                                        display: inline-block;
+                                        width: 302px;
+                                        height: 32px;
+                                        vertical-align: middle;
+                                        opacity: 0;
+                                    }
+                                    &::before {
+                                        content: "选择文件";
+                                        display: inline-block;
+                                        width: 100px;
+                                        height: 32px;
+                                        color: #FFFFFF;
+                                        background: #0c7ccc;
+                                        position: absolute;
+                                        top: -1px;
+                                        left: 0;
+                                        z-index: 1;
+                                        font-size: 16px;
+                                        text-align: center;
+                                    }
+                                }
+                                .tishi{
+                                    font-size: 14px;
+                                    color: #DF0000;
+                                    margin-left: 112px;
+                                    margin-top: 10px;
+                                    background: #fdf4f4;
+                                    width: 780px;
+                                }
+                            }
+                        }
+                    }
+                   .button{
+                       position: absolute;
+                       bottom: 74px;
+                       left: 234px;
+                        .tijiao {
+                            width: 120px;
+                            height: 36px;
+                            color: #FFFFFF;
+                            background: #aaaaaa;
+                            margin-right: 20px;
+                            border: 1px solid #FFFFFF;
+                            &:hover{
+                                background: #0c7ccc;
+                            }
+                        }
+                        .chongzhi {
+                            width: 120px;
+                            height: 36px;
+                            color: #FFFFFF;
+                            background: #aaaaaa;
+                            margin-right: 20px;
+                            border: 1px solid #FFFFFF;
+                            &:hover{
+                                background: #0c7ccc;
+                            }
+                        }
+                        
+                   }
+                }
+            }
+        }
+    }
+}

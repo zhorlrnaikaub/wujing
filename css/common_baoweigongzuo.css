@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none; }
+
+.fl {
+  float: left; }
+
+.fr {
+  float: right; }
+
+.clear::after {
+  content: "";
+  display: block;
+  clear: both; }
+
+.web {
+  border-top: 4px solid #3b7366; }
+  .web header .header_top {
+    width: 1100px;
+    margin: 0 auto;
+    height: 32px;
+    font-size: 12px;
+    color: #666666; }
+    .web header .header_top span {
+      line-height: 32px; }
+    .web header .header_top .caozuo {
+      line-height: 32px; }
+      .web header .header_top .caozuo a:link {
+        color: #666666; }
+      .web header .header_top .caozuo a:visited {
+        color: #666666; }
+      .web header .header_top .caozuo a:first-of-type {
+        margin-right: 10px; }
+      .web header .header_top .caozuo a:nth-of-type(2) {
+        padding: 0 10px;
+        border-left: 1px solid #666666;
+        border-right: 1px solid #666666; }
+      .web header .header_top .caozuo a:nth-of-type(3) {
+        margin-right: 10px; }
+  .web header .baner {
+    font-size: 0;
+    width: 100%;
+    border-top: 1px solid #edeef0; }
+    .web header .baner img {
+      width: 100%; }
+  .web nav {
+    width: 1100px;
+    margin: 0 auto;
+    height: 46px;
+    border-top: 1px solid #eeeeee;
+    border-bottom: 1px solid #EEEEEE;
+    background: linear-gradient(#fefcfc, #f9f7f6); }
+    .web nav a {
+      font-size: 16px;
+      display: inline-block;
+      width: 136px;
+      line-height: 46px;
+      text-align: center; }
+      .web nav a:link {
+        color: #444444; }
+      .web nav a:visited {
+        color: #444444; }
+      .web nav a:hover {
+        color: #207361;
+        line-height: 40px;
+        border-top: 4px solid #207361;
+        border-bottom: 4px solid #FFFFFF;
+        transform: translateY(-1px);
+        background: linear-gradient(#eeeae8, #ffffff); }
+
+/*# sourceMappingURL=common_baoweigongzuo.css.map */

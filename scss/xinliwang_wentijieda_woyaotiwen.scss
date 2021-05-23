@@ -1,0 +1,86 @@
+@charset "utf-8";
+@import"../css/xinliwang_common.css";
+@import"../css/init.css";
+
+.web{
+    section{
+        width: 1000px;
+        margin:0 auto;
+        .woyaotiwen_top{
+            font-size: 14px;
+            color: #8f8f90;
+            margin-top:18px;
+            margin-bottom:18px;
+        }
+        .woyaotiwen_middle{
+            height: 640px;
+            width: 1000px;
+            background: white;
+            .woyaotiwen_zhongjian{
+                width: 805px;
+                margin:0 auto;
+                margin-top:100px;
+                .biaoti{
+                    .biaoti_left{
+                        display: inline-block;
+                        div{
+                            font-size:12px;
+                            color: #afafaf;
+                        }
+                        p{
+                            color: #333333;
+                            font-size: 14px;
+                        }
+                    }
+                    .biaoti_right{
+                        display: inline-block;
+                        vertical-align: top;
+                        margin-left: 57px;
+                        input{
+                            width: 500px;
+                        }
+                    }
+                }
+                .neirong{
+                        margin-top: 25px;
+                    .neirong_left{
+                        display: inline-block;
+                        div{
+                            font-size:12px;
+                            color: #afafaf;
+                        }
+                        p{
+                            color: #333333;
+                            font-size: 14px;
+                        }
+                    }
+                    .neirong_right{
+                        display: inline-block;
+                        vertical-align: top;
+                        margin-left: 45px;
+                        textarea{
+                            width: 700px;
+                            height: 255px;
+                        }
+                    }
+                    
+                }
+                .tijiao{
+                    margin-top: 40px;
+                    margin-left: 100px;
+                    input{
+                        width: 120px;
+                        height: 36px;
+                        background: #0064b9;
+                        border-radius: 5px 5px 5px 5px;
+                        color: white;
+                        }
+                     input:hover{
+                         background:green;
+                         color:red;
+                     }
+                    }
+            }
+        }
+    }
+}

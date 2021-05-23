@@ -1,0 +1,128 @@
+@charset "utf-8";
+.web{
+    background: #f3f7f9;
+    header{
+        background: white;
+        .top_white{
+            height: 36px;
+            width: 1200px;
+            margin: 0 auto;
+            .left{
+                font-size: 14px;
+                line-height: 36px;
+                color: #c0c0c0;
+            }
+            .right{
+                font-size: 14px;
+                line-height: 36px;
+                color: #c0c0c0;
+            }
+        }
+        .top_blue{
+            height: 85px;
+            background: #0074c6; 
+            .li{
+                width: 1200px;
+                margin: 0 auto;
+                height: 85px;
+                .xinlifuwuwang{
+                    font-size: 30px;
+                    font-weight: bold;
+                    color: white;
+                    line-height: 85px;
+                    display: inline-block;
+                    margin-right: 110px;
+                }
+                p{
+                    font-size: 18px;
+                    
+                    display: inline-block;
+                    line-height: 85px;  
+                } 
+                p a{
+                    color: white;
+                }
+                p :first-child{
+                    margin-left: 50px;
+                }
+                p a:hover{
+                    color: red;
+                }
+            }
+        }
+    }
+}
+
+
+/////////////////////////////////////////////////////////
+
+.web{
+    footer{
+         background: white;
+        .weibu{
+            height: 130px;
+            .weibu_top{
+                font-size: 14px;
+                font-family: "微软雅黑";
+                color: #b8b8b8;
+                text-align: center;
+                padding-top: 35px;
+            }
+            .weibu_middle{
+                font-size: 14px;
+                font-family: "微软雅黑";
+                color: #b8b8b8;
+                text-align: center;
+                margin-top: 12px;
+            }
+            .weibu_bottom{
+                text-align: center;
+                margin-top: 17px;
+                div{
+                    display: inline-block;
+                    p{
+                        display: inline-block;
+                        font-size: 14px;
+                        font-weight: bold;
+                        font-family: "微软雅黑";
+                        color: #888888;
+                    }
+                    nav{
+                        display: inline-block;
+                        color: #565656;
+                        font-weight: bold;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+//////////////////////////////自己独有的公共///////////////////////////////
+
+.blue_kuai{
+    height: 18px;
+    width: 6px;
+    background: #2071c2;
+    display: inline-block;
+}
+
+.blue_kuai_wenzi{
+    font-size: 16px;
+    font-weight: bold;
+    font-family: "微软雅黑";
+    margin-left: 10px;
+    display: inline-block;
+    vertical-align: top;
+}
+.blue_kuai_box{
+    padding:20px 0 0 20px;
+}

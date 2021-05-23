@@ -1,0 +1,160 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none; }
+
+.fl {
+  float: left; }
+
+.fr {
+  float: right; }
+
+.clear::after {
+  content: "";
+  display: block;
+  clear: both; }
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none; }
+
+.fl {
+  float: left; }
+
+.fr {
+  float: right; }
+
+.clear::after {
+  content: "";
+  display: block;
+  clear: both; }
+
+.web {
+  border-top: 4px solid #3b7366; }
+  .web header .header_top {
+    width: 1100px;
+    margin: 0 auto;
+    height: 32px;
+    font-size: 12px;
+    color: #666666; }
+    .web header .header_top span {
+      line-height: 32px; }
+    .web header .header_top .caozuo {
+      line-height: 32px; }
+      .web header .header_top .caozuo a:link {
+        color: #666666; }
+      .web header .header_top .caozuo a:visited {
+        color: #666666; }
+      .web header .header_top .caozuo a:first-of-type {
+        margin-right: 10px; }
+      .web header .header_top .caozuo a:nth-of-type(2) {
+        padding: 0 10px;
+        border-left: 1px solid #666666;
+        border-right: 1px solid #666666; }
+      .web header .header_top .caozuo a:nth-of-type(3) {
+        margin-right: 10px; }
+  .web header .baner {
+    font-size: 0;
+    width: 100%;
+    border-top: 1px solid #edeef0; }
+    .web header .baner img {
+      width: 100%; }
+  .web nav {
+    width: 1100px;
+    margin: 0 auto;
+    height: 46px;
+    border-top: 1px solid #eeeeee;
+    border-bottom: 1px solid #EEEEEE;
+    background: linear-gradient(#fefcfc, #f9f7f6); }
+    .web nav a {
+      font-size: 16px;
+      display: inline-block;
+      width: 136px;
+      line-height: 46px;
+      text-align: center; }
+      .web nav a:link {
+        color: #444444; }
+      .web nav a:visited {
+        color: #444444; }
+      .web nav a:hover {
+        color: #207361;
+        line-height: 40px;
+        border-top: 4px solid #207361;
+        border-bottom: 4px solid #FFFFFF;
+        transform: translateY(-1px);
+        background: linear-gradient(#eeeae8, #ffffff); }
+
+.web section {
+  width: 1100px;
+  margin: 20px auto 40px; }
+  .web section .section_top {
+    font-size: 14px;
+    margin-bottom: 26px; }
+    .web section .section_top a:link {
+      color: #888888; }
+    .web section .section_top a:visited {
+      color: #888888; }
+  .web section .section_mid {
+    margin-bottom: 20px; }
+    .web section .section_mid .mid_title {
+      font-size: 16px;
+      padding-bottom: 9px;
+      border-bottom: 4px solid #207361;
+      margin-bottom: 26px; }
+    .web section .section_mid .mid_content {
+      width: 1014px;
+      margin: 0 auto; }
+      .web section .section_mid .mid_content .img_box {
+        width: 231px;
+        height: 154px;
+        margin-bottom: 20px;
+        margin-right: 30px;
+        position: relative; }
+        .web section .section_mid .mid_content .img_box img {
+          width: 100%; }
+        .web section .section_mid .mid_content .img_box::after {
+          content: "“魔鬼周”后，你已悄然收获...";
+          line-height: 32px;
+          display: inline-block;
+          width: 231px;
+          height: 32px;
+          color: #FFFFFF;
+          background: rgba(0, 0, 0, 0.5);
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          transform: scale(0); }
+        .web section .section_mid .mid_content .img_box:hover::after {
+          transform: scale(1); }
+      .web section .section_mid .mid_content .img_box:nth-of-type(4n) {
+        margin-right: 0; }
+  .web section .section_bottom {
+    text-align: center; }
+    .web section .section_bottom span {
+      display: inline-block;
+      width: 46px;
+      height: 46px;
+      color: #888888;
+      font-size: 16px;
+      line-height: 46px;
+      cursor: pointer; }
+      .web section .section_bottom span:hover {
+        background: #207361;
+        color: #FFFFFF; }
+    .web section .section_bottom span:first-of-type {
+      background: #207361;
+      color: #FFFFFF; }
+    .web section .section_bottom a {
+      margin-left: 20px; }
+      .web section .section_bottom a .rightarrow_icon {
+        font-size: 12px; }
+      .web section .section_bottom a:link .rightarrow_icon {
+        color: #999999; }
+      .web section .section_bottom a:visited .rightarrow_icon {
+        color: #999999; }
+
+/*# sourceMappingURL=baoweigongzuo_jingshijiaoyusucai.css.map */

@@ -1,0 +1,301 @@
+@charset "utf-8";  
+@import "news_common.scss";
+@import "news_init.scss";
+.neirongshang_box{
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    .neirong_wenzhi{
+        margin: 21px 0 31px 0;
+        
+    }
+    .neirong_wenzhi span{
+        font-size: 11px;
+        color: #888888;   
+    }
+    .neirong_zhuti{
+        display: inline-block;
+        width: 908px;
+        height: 40px;
+        text-align: left;
+        background: #f5f5f5;
+        border: 1px solid #dddddd;
+        margin-bottom: 32px;    
+    }
+    .yuanxing{
+        display: inline-block;
+        margin-left: 19px;
+        margin-top:9px;
+        color: #f3dfdf;
+        text-align: center;
+        vertical-align: bottom;
+         
+    }
+    .yuanxing a{
+        display: inline-block;
+        padding-left: 8px;
+        font-weight: bold;
+        font-size: 14px;
+        color: red;
+        vertical-align: middle;              
+    }
+    .zgyw{
+        display: inline-block;
+        margin-left: 40px;
+        vertical-align: middle;       
+    }
+    .wjdt{
+        display: inline-block;
+        margin-left: 40px;
+        vertical-align: middle;
+    }
+    .sjjq{
+        display: inline-block;
+        margin-left: 40px;
+        vertical-align: middle;
+    }
+    .tyxw{
+        display: inline-block;
+        margin-left: 40px;
+        vertical-align: middle;
+    }
+    .ylxw{
+        display: inline-block;
+        margin-left: 40px;
+        vertical-align: middle;
+    }
+    .jdsp{
+        display: inline-block;
+        margin-left: 40px;
+        vertical-align: middle;
+    }
+    .yuanxing::before{
+        display: inline-block;
+        width: 14px;
+        height: 14px;
+        border-radius: 14px;
+        background: red;
+        font-size: 2px;
+        vertical-align: middle;  
+        padding-left: 1px;     
+    }
+    .zgyw a{
+        display: inline-block;
+        color: black;
+        font-size: 14px;
+        padding-left: 8px;
+        font-weight: bold;
+        vertical-align: middle;
+    }
+    .wjdt a{
+        display: inline-block;
+        color: black;
+        font-size: 14px;
+        padding-left: 8px;
+        font-weight: bold;
+        vertical-align: middle;
+    }
+    .sjjq a{
+        display: inline-block;
+        color: black;
+        font-size: 14px;
+        padding-left: 8px;
+        font-weight: bold;
+        vertical-align: middle;
+    }
+    .tyxw a{
+        display: inline-block;
+        color: black;
+        font-size: 14px;
+        padding-left: 8px;
+        font-weight: bold;
+        vertical-align: middle;
+    }
+    .ylxw a{
+        display: inline-block;
+        color: black;
+        font-size: 14px;
+        padding-left: 8px;
+        font-weight: bold;
+        vertical-align: middle;
+    }
+    .jdsp a{
+        display: inline-block;
+        color: black;
+        font-size: 14px;
+        padding-left: 8px;
+        font-weight: bold;
+        vertical-align: middle;
+    }
+    .sszx_img img{
+        width: 908px;
+    }
+    
+    .zgyw a:hover{
+        color: red;
+    }
+    .wjdt a:hover{
+         color: red;
+    }
+    .sjjq a:hover{
+         color: red;
+    }
+    .tyxw a:hover{
+         color: red;
+    }
+    .ylxw a:hover{
+         color: red;
+    }
+    .jdsp a:hover{
+         color: red;
+    }
+// ------------------分割线-----------------------   
+.neirong_rdxw{
+    width: 96px;
+    height: 34px;
+    border-radius: 2px;    
+    background-color: red;
+    text-align: center;
+    display: inline-block;
+    margin-top: 16px;
+    
+  }
+  .neirong_rdxw span{
+      font-size: 18.67px;
+      color: white;
+      line-height: 34px;
+  }
+  .neirong_rdxw_wz{
+      display: inline-block;
+      width: 790px;
+      vertical-align: top;
+      margin-top: 16px;
+  }
+  .neirong_rdxw_wz a{
+      font-size: 24px;
+      color: black;
+  }
+  .neirong_rdxw_wz a:hover{
+      color: red;
+  }
+  .neirong_rdxw_wb{
+      width: 790px;
+      position: relative;
+      margin-bottom: 69px;
+  }
+  .neirong_rdxw_wb a{
+      font-size: 16px;
+      display: block;
+      color: #666666;
+      margin-top: 13px;
+      line-height: 35px;
+  }
+  .neirong_rdxw_wb a:hover{
+      color: red;
+  }
+}
+//-----------------------------分割线-------------------------
+.neirongxia_box{
+    text-align: center;   
+}
+.neirongxia_fgx{
+    width: 1200px;
+    height: 1px;
+    margin: 0 auto;
+    background: #dddddd;
+    margin-bottom: 35px;   
+}
+.neirongxia_img{
+    width: 1200px;
+    margin: 0 auto;
+    text-align: left;
+    display: inline-block;
+    vertical-align: top;
+    
+}
+.neirongxia_zw{
+    display: inline-block;
+    width: 865px;
+    text-align: left;
+    vertical-align: top;
+    padding-left: 28px;
+    padding-bottom: 35px;
+    
+}
+.neirongxia_zw a{
+    display: inline-block;
+    font-size: 24px;
+    color: black;
+}
+.neirongxia_zw_span{
+    width: 91%;
+    display: inline-block;
+    text-align: left;
+    color: #747474;
+    padding-top:17px;
+    line-height: 28px;
+    position: relative;
+}
+.neirongxia_zw a:hover{
+    color: red;
+}
+//------------------------------翻页按钮---------------------
+.yemianlianjie_box{
+    width: 1200px;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+    margin-bottom: 40px;    
+}
+.yemianlianjie_yi{
+    display: inline-block;
+    width: 46px;
+    height: 46px;
+    text-align: center;
+    line-height: 46px;
+}
+.yemianlianjie_yi button{
+        color: white;
+        background: #D60000;
+        width: 46px;
+        height: 46px;
+        border: none;
+        cursor: pointer;
+}
+.yemianlianjie_houxu{
+    display: inline-block;
+    width: 46px;
+    height: 46px;
+    text-align: center;
+    line-height: 46px;
+}  
+.yemianlianjie_houxu button{
+        color: #888888;
+        background: white;
+        width: 46px;
+        height: 46px;
+        border: none;
+        cursor: pointer;
+        vertical-align: middle;
+}
+.jiantou{
+        width: 46px;
+        height: 46px;
+        line-height: 46px;
+        position: absolute;
+        top: 2px;
+        right: 33%;
+        
+        cursor: pointer;
+        
+}
+.yemianlianjie_houxu button:hover{
+    background: #D60000;
+    color: white;
+}
+.jiantou:hover::before{
+    color: white;
+}
+.jiantou:hover{
+    background: #D60000;
+}

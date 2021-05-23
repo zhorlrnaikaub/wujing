@@ -1,0 +1,120 @@
+@charset "utf-8";
+.liebiaoye{
+    width: 1200px;
+    margin: 0 auto;
+
+    .sylzcg{
+        color: #b8b8b8;
+        margin: 20px 0 40px 0;
+        a{
+            color: #b8b8b8;
+            font-size: 14px;
+            
+        }
+    }
+}
+.xzjd_bigbox{
+    
+    .xzjd_box{
+       display: inline-block;
+       width: 1200px;
+        p{
+            display: inline-block;
+            line-height: 20px;
+            margin: 20px 0 10px 20px;
+            font-size: 14px;
+            font-family: "微软雅黑";
+            a{
+                color: black;
+            }
+        }
+        p:nth-child(2){
+            width: 50px;
+            height: 25px;
+            background: red;
+            text-align: center;
+            line-height: 25px;
+            color: white;
+        }
+    }
+}
+.zuixin_box{
+    text-align: center;
+    display: inline-block;
+    font-size: 14px;
+    font-family: "微软雅黑";
+    margin: 20px 0;
+    .zuixin{
+        width: 60px;
+        height: 38px;
+        line-height: 38px;
+        background: red;
+        display: inline-block;
+        a{
+            color: white;
+        }
+    }
+    .zuire{
+        width: 60px;
+        height: 38px;
+        background: white;
+        display: inline-block;
+        a{
+            color: black;
+        }
+    }
+}
+.zxgx_box{
+    
+    .xuhao{
+        margin-left: 18px;
+        width: 70px;
+        font-size: 14px;
+        font-family: "微软雅黑";
+    }
+    .zhuangtai{
+        color: #57ba59;
+        font-size: 14px;
+        font-family: "微软雅黑";
+    }
+    .zhuangtai1{
+        color: black;
+        font-size: 14px;
+        font-family: "微软雅黑";
+    }
+    
+}
+.footer_shuzi{
+    text-align: center;
+    margin: 20px 0;
+    .footer_shuzi_one{
+        width: 40px;
+        height: 40px;
+        background: white;
+        color: white;
+        text-align: center;
+        line-height: 40px;
+        display: inline-block;
+        a{
+            color: black;
+        }
+        &:hover{
+            background: red;
+        }
+        &:hover a{
+            color: white;
+        }
+    }
+    .footer_shuzi_two{
+        width: 40px;
+        height: 40px;
+        background: red;
+        color: black;
+        text-align: center;
+        line-height: 40px;
+        display: inline-block;
+        a{
+            color: white;
+        }
+    }
+}

@@ -1,0 +1,156 @@
+@charset "UTF-8";
+.shuyuan {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center; }
+  .shuyuan .shangbian {
+    display: inline-block;
+    width: 1200px;
+    height: 80px;
+    background: white;
+    vertical-align: middle; }
+    .shuyuan .shangbian .hcsd {
+      font-size: 30px;
+      font-family: "微软雅黑";
+      font-weight: bold;
+      color: #e74c3c;
+      display: inline-block;
+      vertical-align: middle; }
+
+.search form {
+  width: 100%;
+  border: 1px solid red; }
+
+.search {
+  display: inline-block;
+  margin: 0 160px 0 200px; }
+
+.search .search_input {
+  width: 252px;
+  height: 40px;
+  vertical-align: middle;
+  padding: 0 3px;
+  border: none;
+  outline: none;
+  background: white; }
+
+.search .search_btn {
+  width: 64px;
+  height: 40px;
+  vertical-align: middle;
+  display: inline-block;
+  font-size: 18px;
+  text-align: center;
+  line-height: 40px;
+  color: white;
+  background: red;
+  margin-right: -1px; }
+
+.search input {
+  border: none; }
+
+.header_box {
+  width: 272px;
+  height: 80px;
+  font-size: 12px;
+  vertical-align: middle;
+  display: inline-block; }
+  .header_box .header_top {
+    margin-top: 26px; }
+  .header_box .header_swsy,
+  .header_box .header_zhuce, .header_box .header_denglu {
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 4px; }
+  .header_box .denglu_logo {
+    display: inline-block;
+    vertical-align: middle;
+    padding-top: 8px; }
+  .header_box .denglu_logo img {
+    width: 13px; }
+  .header_box .header_denglu a {
+    color: #888888; }
+  .header_box .header_swsy a {
+    color: #888888; }
+  .header_box .header_zhuce a {
+    color: #888888; }
+  .header_box .header_swsy a:hover {
+    color: #c10000; }
+  .header_box .header_zhuce a:hover {
+    color: #c10000; }
+  .header_box .header_denglu a:hover {
+    color: #c10000; }
+  .header_box .header_shuxian {
+    display: inline-block;
+    width: 1px;
+    height: 14px;
+    background: #888888;
+    margin-top: 4px;
+    vertical-align: middle;
+    margin-left: 8px;
+    margin-right: 8px; }
+
+.daohang_red_box {
+  width: 100%;
+  background: red; }
+
+.shuyuan .daohang_box {
+  width: 100%;
+  height: 46px; }
+  .shuyuan .daohang_box ul {
+    display: inline-block; }
+    .shuyuan .daohang_box ul li {
+      display: inline-block;
+      font-family: "微软雅黑";
+      font-size: 16px;
+      line-height: 46px;
+      text-align: center;
+      padding: 0 5px; }
+      .shuyuan .daohang_box ul li:hover {
+        background: #c43728; }
+      .shuyuan .daohang_box ul li a {
+        color: white; }
+
+.shuyuan .daohang_box ul li:nth-of-type(1) {
+  background: #c43728; }
+
+.sysp {
+  display: inline-block; }
+
+.szgwsy {
+  display: inline-block;
+  color: white; }
+
+footer {
+  background: white; }
+  footer .weibu {
+    height: 130px; }
+    footer .weibu .weibu_top {
+      font-size: 14px;
+      font-family: "微软雅黑";
+      color: #b8b8b8;
+      text-align: center;
+      padding-top: 35px; }
+    footer .weibu .weibu_middle {
+      font-size: 14px;
+      font-family: "微软雅黑";
+      color: #b8b8b8;
+      text-align: center;
+      margin-top: 12px; }
+    footer .weibu .weibu_bottom {
+      text-align: center;
+      margin-top: 17px; }
+      footer .weibu .weibu_bottom div {
+        display: inline-block; }
+        footer .weibu .weibu_bottom div p {
+          display: inline-block;
+          font-size: 14px;
+          font-weight: bold;
+          font-family: "微软雅黑";
+          color: #888888; }
+        footer .weibu .weibu_bottom div nav {
+          display: inline-block;
+          color: #565656;
+          font-weight: bold; }
+
+/*# sourceMappingURL=wenhuadaguanyuancommon.css.map */

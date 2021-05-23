@@ -1,0 +1,215 @@
+@charset "utf-8";
+@import "news_common.scss";
+@import "news_init.scss";
+@import "news_lb.scss";
+
+.bt_fgx{
+    display: inline-block;
+    width: 890px;
+    height: 1px;
+    margin: 0 auto;
+    background: #dddddd;
+    margin: 19px 0 14px 0;   
+}
+.neirong_h1 h1{
+    font-weight: normal;
+}
+.bt_box{
+    width: 890px;
+    position: relative;
+}
+.aqdjc_img{
+text-align: center;   
+}
+.bt_shijian_span{
+    margin-bottom: 22px;
+    color: #666666;
+}
+.bt_jieshao_span{
+    margin-bottom: 30px;
+    color: #666666;
+}
+.djc_zw{
+    color: #666666;
+    margin-top: 32px;
+    margin-bottom: 49px;
+    line-height: 35px;
+}
+.pinglun_bt{
+    display: inline-block;
+    font-size: 22px;
+    
+}
+.beizhu{
+    display: inline-block;
+    color: #666666;
+    font-size: 12px;
+}
+.pinglunshu{
+    display: inline-block;
+    color: #666666;
+    font-size: 12px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.pinglunqu_box{
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+.pinglunqu{
+    width: 890px;
+   text-align: left;
+   position: relative;
+}
+//-----------------------------------评论区-----------------------
+.shurukuang{
+    width: 888px;
+    height: 134px;
+    border: 1px solid #eeeeee;
+    background: #f6f6f6;
+    position: relative;
+}
+.pinglunkuang{
+    resize: none;
+    width: 887px;
+    height: 91px;    
+}
+.pinglunqu_box .pinglunqu .shurukuang .img_box{
+    padding-left: 9px;
+    display: inline-block;
+    
+}
+.pinglunqu_box .pinglunqu .shurukuang .img_box img{
+    vertical-align: middle;
+    padding-right: 10px;
+    padding-top: 1px;
+}
+.pinglunqu_box .pinglunqu .shurukuang .img_box span{
+    font-size: 12px;
+    color: #4fa5d2;   
+}
+.fabiao{
+    display: inline-block;
+    position: absolute;
+    top: 74%;
+    right: 10px;
+}
+.fabiao span{
+    font-size: 12px;
+    color: #666666;
+    padding-right: 20px;
+}
+.fabiao button{    
+    width: 90px;
+    height: 30px;
+    color: white;
+    background: #D60000;
+    border: none;
+    cursor: pointer;
+}
+.fabiao button:hover{
+    background: #888888;
+}
+//----------------------------网友评论--------------------------
+.pinglunqu_bt{
+    padding-top: 24px;
+    padding-bottom: 31px;
+    font-size: 16px;
+}
+.wangyou_yi{
+    padding-left: 4px;
+    padding-bottom: 69px;
+    display: inline-block;
+    position: relative;
+    
+}
+.wangyou_yi img{
+    vertical-align: top;
+}
+.pinglunqu_wb{
+    display: inline-block;
+    padding-left: 20px;
+}
+.pinglunqu_wb p{
+    color: #4fa5d2;
+}
+.pinglunqu_wb span{
+    display: inline-block;
+    width: 770px;
+    font-size: 14px;
+    color: #666666;
+    padding-top: 14px;
+}
+.pinglun_time{
+    position: absolute;
+    top: 8px;
+    right: 0;
+    font-size: 12px;
+    color: #c3c3c3;
+}
+.hongdianzan span{
+    color: #999999;
+    font-size: 12px;
+}
+.hongdianzan{
+    cursor: pointer;
+    display: inline-block;
+    position: absolute;
+    bottom: 10%;
+    left: 79px;    
+}
+.huifuanniu_a a{
+    color: #ff9519;
+    font-size: 12px;
+    position: absolute;
+    bottom: 16px;
+    left: 15%;
+}
+.huifuanniu_a_diere a{
+    color: #999999;
+    font-size: 12px;
+    position: absolute;
+    bottom: 16px;
+    left: 15%;
+}
+.huidianzan{
+    cursor: pointer;
+    display: inline-block;
+    color: #999999;
+    position: absolute;
+    bottom: 10%;
+    left: 79px;
+}
+.huidianzan span{
+    font-size: 12px;
+}
+.position{
+    position: relative;
+    padding-top: 20px;
+    display: inline-block;
+}
+//--------------------------加载更多-----------------------
+.jiazai{
+    width: 889px;
+    height: 30px;
+    border: 1px solid #e5e5e5;
+    background: #EEEEEE;
+    text-align: center;
+    line-height: 30px;
+    margin-bottom: 50px;
+}
+.jiazai button{
+    font-size: 14px;
+    width: 889px;
+    height: 30px;
+    border: none;
+    background: #EEEEEE;
+    color: #666666;
+    cursor: pointer;
+}
+.jiazai button:hover{
+    background: skyblue;
+    color: white;
+}

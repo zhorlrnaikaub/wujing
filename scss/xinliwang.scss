@@ -1,0 +1,399 @@
+@charset "utf-8";
+@import "../css/init.css";
+@import "../css/xinliwang_common.css";
+
+.web{
+    section{
+        .picture_top{
+            width: 1200px;
+            margin: 0 auto;
+            margin-top: 20px;
+        }
+        .xinlizixun{
+            height: 210px;
+            background:white;
+            width: 1200px;
+            margin: 0 auto;
+            margin-top: 20px;
+            .top_left{
+                padding-top: 14px;
+                padding-left: 12px;
+                display: inline-block;
+                .blue{
+                height: 18px;
+                width: 6px;
+                background: #2071c2;
+                display: inline-block;
+                }
+                span{
+                vertical-align: top;
+                }
+            }
+            .top_right{
+                display: inline-block;
+                margin-right: 20px;
+                margin-top: 14px;
+                div{
+                    display: inline-block;
+                }
+                div:hover{
+                    color: yellow;
+                }
+            }
+            .wangyouhui{
+                display: inline-block;
+                margin-top: 26px;
+                .wangyouhui_left{
+                    display: inline-block;
+                }
+                .right{
+                    display: inline-block;  
+                        margin-left: 10px;
+                    div{
+                        font-size: 16px;
+                        font-weight: bold;
+                        color: #333333;
+                    }
+                    p{
+                        font-size: 14px;
+                        margin-top: 12px;
+                        color: #888888;
+                    }
+                    h1{
+                        margin-top: 45px;
+                        height: 28px;
+                        width: 84px;
+                        background: #0064b9;
+                        font-size: 14px;
+                        line-height: 28px;
+                        text-align: center;
+                        color: white;
+                        border-radius:5px 5px 0 0 ;
+                    }
+                    h1:hover{
+                        color: red;
+                        background: green;
+                    }
+                }
+            }
+        }
+    }
+}
+.web{
+    section{
+        .left_bian{
+            .zoujinxinli{
+                padding: 13px 17px 28px 12px;
+                background: white;
+                .top{
+                    margin-top: 13px;
+                    margin-left: 12px;
+                    div{
+                        display: inline-block;
+                    }
+                    .wenzi_left{
+                        font-size: 16px;
+                        font-weight: bold;
+                    }
+                    .wenzi_right a{
+                         font-size: 14px;
+                         color: #888888;
+                    }
+                }
+            }
+            .left_left{
+                display: inline-block;
+                width: 420px;
+                margin-top: 28px;
+                .left_left_tu{
+                    display: inline-block;
+                }
+                .left_left_wenzi{
+                    display: inline-block;
+                    margin-left: 23px;
+                    width: 180px;
+                    vertical-align: top;
+                    margin-top: 13px;
+                    span{
+                         font-size: 14px;
+                         font-weight: bold;
+                    }
+                    p{
+                        margin-top: 13px;
+                    }
+                    
+                }
+            }
+        }
+    }
+}
+/////////////////////////////心理教育////////////////////////
+.web{
+    section{
+        .xinlijiaoyu{
+            margin-top: 20px;
+            padding: 13px 17px 28px 12px;
+            background: white;
+            .xinlijiaoyu_top{
+                margin-top: 13px;
+                margin-left: 12px;
+                .blue_kuai{
+                }
+                .wenzi_left{
+                    font-size: 16px;
+                    font-weight: bold;
+                    display: inline-block;
+                }
+                .wenzi_right a{
+                         font-size: 14px;
+                         color: #888888;
+                }
+            }
+        }
+        .xinlijiaoyu_middle{
+            margin-left: 20px;
+            margin-top: 28px;
+            .xinlijiaoyu_middle_left{
+                display: inline-block;
+                .xinlizixun_tu_top{
+                    width: 386px;
+                    img{
+                        width: 100%;
+                    }
+                }
+                .xinlizixun_zi{
+                    font-size: 14px;
+                    margin-top: 20px;
+                    margin-bottom: 30px;
+                }
+                .xinlizixun_middle{
+                    margin-top: 29px;
+                    nav{  
+                    display: inline-block;
+                    vertical-align: top;
+                        span{
+                            font-size: 14px;
+                        }
+                        p{
+                            color: #c9c9c9;
+                            width: 277px;
+                            margin-top: 12px;
+                        }
+                    }
+                }
+                .xinlizixun_bottom{
+                    margin-top: 29px;
+                    nav{  
+                    display: inline-block;
+                    vertical-align: top;
+                        span{
+                            font-size: 14px;
+                        }
+                        p{
+                            color: #c9c9c9;
+                            width: 277px;
+                            margin-top: 12px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+///////////////心灵驿站/////////////////
+.web{
+    section{
+        .xinlingyizhan{
+            margin-top: 20px;
+            padding: 13px 17px 20px 12px;
+            background: white;
+            margin-bottom: 20px;
+            .xinlingyizhan_top{
+                margin-top: 13px;
+                margin-left: 12px;
+                .wenzi_left{
+                    font-size: 16px;
+                    font-weight: bold;
+                    padding-left: 20px;
+                }
+                .wenzi_right a{
+                         font-size: 14px;
+                         color: #888888;
+                }
+            }
+        }
+        .xinlingyizhan_middle{
+            display: inline-block;
+            margin-left: 30px;
+            .xinlingyizhan_middle_middle{
+                margin-top: 20px;
+                .xinlingyizhan_middle_left{
+                    display: inline-block;
+                }
+                .xinlingyizhan_middle_right{
+                    display: inline-block;
+                    vertical-align: top;
+                    width: 210px;
+                    margin-top: 20px;
+                    p{
+                        font-size: 14px;
+                        font-weight: bold;
+                        margin-bottom: 10px;
+                    }
+                    span{
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+    }
+}
+/////////////////心灵音乐///////////////////////
+.web{
+    section{
+        .left_bian{
+            .xinlingyizhan{
+                .xinlingyinyue{
+                    .xinlingyinyue_top{
+                        font-size: 16px;
+                        font-weight: bold;
+                        padding: 33px 17px 28px 40px;
+                    }
+                    .xinlingyinyue_bottom{
+                        padding-bottom: 20px;
+                        .xinlingyinyue_bottom_left{
+                            width: 420px;
+                            margin-top: 5px;
+                             display: inline-block;
+                            p{
+                                display: inline-block;
+                                font-size: 12px;
+                                margin-left: 25px;
+                            }
+                            span{
+                                display: inline-block;
+                                font-size: 14px;
+                                margin-left: 22px;
+                                width: 320px;
+                            }
+                            div{
+                                display: inline-block;
+                            }
+                            p,span,div{
+                                color: #777777;
+                            }
+                            div:hover{
+                                color:#56c4e0 ;
+                            }
+                            p:hover{
+                                color:#56c4e0 ;
+                            }
+                            span a:hover{
+                                color:#56c4e0  ;
+                            }
+                            span a{
+                                color: #777777;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+////////////////////////////////////////
+.web{
+    section{
+        .left_bian{
+            display: inline-block;
+            width: 880px;
+        }
+      .right_box{
+            .right{
+                display: inline-block;
+  //////////////////////心理训练//////////////////              
+                                   
+                
+                .xinlixunlian{
+                     width: 290px;
+                     background:white;
+                     margin-bottom:25px;
+                     margin-top: 20px;
+                     margin-left: 30px;
+                     padding-bottom: 20px;
+                   .xinlixunlian_top{
+                       padding:10px 0 0 20px;
+                     .wenzi{
+                         font-size: 16px;
+                         font-family: "微软雅黑";
+                         text-align: center;
+                         margin-top: 10px;
+                         display: inline-block;
+                         font-weight: bold;
+                         margin-left: 10px;
+                         
+                     }
+                  }
+                   .xinlixunlian_bottom{
+                       margin-left: 16px;
+                       margin-top: 21px;
+                       position: relative;
+                        span a{
+                        font-size: 14px;
+                        font-family: "微软雅黑";
+                        color: #929292;
+                        margin: 0px 0 0 10px;
+                        vertical-align: top;
+                        position: absolute;
+                        top: 10px;
+                         }
+                        span a:hover{
+                            color: skyblue;
+                        }
+                   
+                    p{
+                        display: inline-block;
+                    }
+                   }  
+                }
+   //////////////////////心理训练//////////////////                 
+                .wentijieda{
+                    height: 510px;
+                    width: 290px;
+                    background: white;
+                    margin-left: 30px;
+                    margin-top: 20px;
+                    .wentijieda_top{
+                        padding:20px 0 0 20px;
+                        .blue_kuai{
+                        }
+                        p{
+                            font-size: 16px;
+                            font-weight: bold;
+                            display: inline-block;
+                        }
+                    }
+                }
+                .wentijieda_bottom{
+                    p{
+                        font-size: 14px;
+                        text-align: center;
+                        padding-top: 20px;
+                    }
+                    p::before{
+                        content: "";
+                        display: inline-block;
+                        width: 7px;
+                        height: 7px;
+                        background: #cccccc;
+                        margin-right: 5px ;
+                    }
+                    p:hover{
+                        color: #3c62a9;
+                    }
+                }
+        }
+       } 
+    } 
+}
+

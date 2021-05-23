@@ -1,0 +1,29 @@
+@charset "utf-8";
+@import "scss_init.scss";
+@import "common_baoweigongzuo.scss";
+.web {
+    section {
+        width: 1100px;
+        margin: 20px auto 40px;
+        .section_top {
+            font-size: 14px;
+            margin-bottom: 30px;
+            a {
+                &:link {
+                    color: #888888;
+                }
+                &:visited {
+                    color: #888888;
+                }
+            }
+        }
+        .section_bottom{
+            .section_title{
+                
+            }
+            .section_content{
+                
+            }
+        }
+    }
+}

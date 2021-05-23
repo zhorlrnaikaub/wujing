@@ -1,0 +1,85 @@
+@charset "UTF-8";
+@import url(../css/xinliwang_common.css);
+@import url(../css/init.css);
+.web section {
+  width: 1200px;
+  margin: 0 auto; }
+  .web section .woyaotiwen_top {
+    font-size: 14px;
+    color: #8f8f90;
+    margin-top: 18px;
+    margin-bottom: 18px; }
+  .web section .zixunwenti {
+    background: white;
+    margin-bottom: 50px; }
+    .web section .zixunwenti .woyaotiwen_zhongjian .diyihang {
+      margin-left: 200px;
+      margin-top: 124px; }
+      .web section .zixunwenti .woyaotiwen_zhongjian .diyihang .diyihang_left {
+        display: inline-block; }
+        .web section .zixunwenti .woyaotiwen_zhongjian .diyihang .diyihang_left img {
+          width: 60px;
+          height: 60px; }
+      .web section .zixunwenti .woyaotiwen_zhongjian .diyihang .diyihang_right {
+        display: inline-block;
+        vertical-align: top;
+        margin-top: 10px; }
+        .web section .zixunwenti .woyaotiwen_zhongjian .diyihang .diyihang_right p {
+          font-size: 14px;
+          font-weight: bold;
+          padding-bottom: 8px; }
+        .web section .zixunwenti .woyaotiwen_zhongjian .diyihang .diyihang_right span {
+          font-size: 14px;
+          color: #888888;
+          padding-top: 10px; }
+    .web section .zixunwenti .woyaotiwen_zhongjian .dierhang {
+      border-bottom: 1px dashed #eeeeee;
+      width: 1000px;
+      margin: 0 auto;
+      margin-top: 28px;
+      margin-bottom: 28px; }
+    .web section .zixunwenti .woyaotiwen_zhongjian .disanhang {
+      margin-left: 200px;
+      margin-bottom: 24px; }
+      .web section .zixunwenti .woyaotiwen_zhongjian .disanhang p {
+        display: inline-block;
+        font-size: 14px;
+        color: #333333;
+        font-family: "微软雅黑";
+        width: 100px; }
+      .web section .zixunwenti .woyaotiwen_zhongjian .disanhang div {
+        display: inline-block; }
+        .web section .zixunwenti .woyaotiwen_zhongjian .disanhang div input {
+          width: 155px; }
+    .web section .zixunwenti .woyaotiwen_zhongjian .disihang {
+      margin-left: 200px;
+      margin-bottom: 24px; }
+      .web section .zixunwenti .woyaotiwen_zhongjian .disihang .fwb_left {
+        vertical-align: top;
+        display: inline-block; }
+        .web section .zixunwenti .woyaotiwen_zhongjian .disihang .fwb_left div {
+          font-size: 14px;
+          font-family: "微软雅黑";
+          color: #333333;
+          width: 100px; }
+        .web section .zixunwenti .woyaotiwen_zhongjian .disihang .fwb_left span {
+          display: inline-block;
+          font-size: 12px;
+          color: #e8e8e8; }
+      .web section .zixunwenti .woyaotiwen_zhongjian .disihang .fwb_right {
+        display: inline-block; }
+        .web section .zixunwenti .woyaotiwen_zhongjian .disihang .fwb_right textarea {
+          width: 700px;
+          height: 254px; }
+    .web section .zixunwenti .woyaotiwen_zhongjian .diwuhang {
+      margin-left: 305px;
+      padding-bottom: 50px; }
+      .web section .zixunwenti .woyaotiwen_zhongjian .diwuhang input {
+        width: 121px;
+        height: 36px; }
+      .web section .zixunwenti .woyaotiwen_zhongjian .diwuhang input:hover {
+        background: #0064b9;
+        color: white;
+        font-weight: bold; }
+
+/*# sourceMappingURL=xinliwang_xinlizixun_zixunwenti.css.map */

@@ -1,0 +1,138 @@
+@charset "UTF-8";
+@import url(../css/init.css);
+@import url(../css/xinliwang_common.css);
+.web section {
+  width: 1200px;
+  margin: 0 auto; }
+  .web section .top {
+    height: 50px;
+    font-size: 14px;
+    font-family: "微软雅黑";
+    color: #969797;
+    line-height: 50px;
+    width: 1200px;
+    margin: 0 auto; }
+  .web section .left .left_top {
+    padding: 15px 0 0 15px; }
+  .web section .left .wangyouhui_box {
+    margin-top: 20px;
+    margin: 0 auto;
+    padding-left: 50px;
+    margin-top: 20px;
+    padding-bottom: 20px; }
+    .web section .left .wangyouhui_box .wangyouhui_box_tu {
+      display: inline-block; }
+  .web section .left .wangyouhui_box_center {
+    display: inline-block;
+    vertical-align: top; }
+    .web section .left .wangyouhui_box_center .wangyouhui_box_center_top {
+      margin-top: 10px; }
+      .web section .left .wangyouhui_box_center .wangyouhui_box_center_top p {
+        font-size: 18px;
+        font-weight: bold; }
+      .web section .left .wangyouhui_box_center .wangyouhui_box_center_top div {
+        font-size: 14px;
+        color: #bfbfbf;
+        padding-top: 5px; }
+    .web section .left .wangyouhui_box_center .wangyouhui_box_center_middle {
+      margin-top: 2px; }
+      .web section .left .wangyouhui_box_center .wangyouhui_box_center_middle span {
+        font-size: 14px;
+        color: #bfbfbf; }
+      .web section .left .wangyouhui_box_center .wangyouhui_box_center_middle div {
+        display: inline-block; }
+        .web section .left .wangyouhui_box_center .wangyouhui_box_center_middle div input {
+          width: 84px;
+          height: 28px;
+          font-size: 14px;
+          margin-left: 20px; }
+        .web section .left .wangyouhui_box_center .wangyouhui_box_center_middle div input:hover {
+          background: #0064b9;
+          color: white; }
+    .web section .left .wangyouhui_box_center .wangyouhui_box_center_bottom {
+      margin-top: 20px; }
+      .web section .left .wangyouhui_box_center .wangyouhui_box_center_bottom div {
+        font-size: 14px;
+        color: #a7a7a7;
+        display: inline-block; }
+      .web section .left .wangyouhui_box_center .wangyouhui_box_center_bottom span {
+        color: #0074c6;
+        font-size: 14px; }
+  .web section .right {
+    height: 100px;
+    width: 290px;
+    background: white;
+    margin-bottom: 25px; }
+    .web section .right .tiwen {
+      background: #2dc3e8;
+      color: white;
+      font-size: 14px;
+      height: 36px;
+      width: 152px;
+      text-align: center;
+      line-height: 36px;
+      margin: 0 auto;
+      margin-top: 12px; }
+    .web section .right .tiwen:hover {
+      background: red;
+      color: green; }
+    .web section .right .wenzi {
+      font-size: 12px;
+      font-family: "微软雅黑";
+      color: #989898;
+      text-align: center;
+      margin-top: 10px; }
+  .web section .right_bottom {
+    background: white;
+    width: 290px;
+    padding-bottom: 20px; }
+    .web section .right_bottom .xinlixunlian {
+      text-align: center;
+      margin-top: 12px; }
+      .web section .right_bottom .xinlixunlian .bottom_blue {
+        height: 18px;
+        width: 6px;
+        background: #2071c2;
+        display: inline-block; }
+      .web section .right_bottom .xinlixunlian .wenzi {
+        font-size: 16px;
+        font-weight: bold;
+        display: inline-block; }
+    .web section .right_bottom .tupian {
+      margin-left: 16px;
+      margin-top: 21px;
+      position: relative; }
+      .web section .right_bottom .tupian span {
+        font-size: 14px;
+        font-family: "微软雅黑";
+        color: #929292;
+        margin: 0px 0 0 10px;
+        vertical-align: top;
+        position: absolute;
+        top: 10px; }
+      .web section .right_bottom .tupian p {
+        display: inline-block; }
+  .web section .left {
+    width: 880px;
+    background: white;
+    display: inline-block; }
+
+.web .xuanye {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 33px; }
+  .web .xuanye div {
+    display: inline-block;
+    width: 46px;
+    height: 46px;
+    line-height: 46px; }
+  .web .xuanye p {
+    display: inline-block;
+    width: 46px;
+    height: 46px;
+    line-height: 46px; }
+  .web .xuanye div:hover {
+    color: white;
+    background: #0074c6; }
+
+/*# sourceMappingURL=xinliwang_xinlizixun.css.map */

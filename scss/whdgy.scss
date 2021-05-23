@@ -1,0 +1,240 @@
+@charset "utf-8";
+.header_bigbox{
+    width: 100%;
+    display: inline-block;
+}
+.header_red_box{
+    height: 100px;
+    background: #d3d4e3;
+    text-align: center;line-height: 100px;
+    p{
+        display: inline-block;
+        font-family: "微软雅黑";
+    }
+    p:first-child{
+        font-size: 28px;
+        color: red;
+    }
+    ul{
+        display: inline-block;
+        li{
+        display: inline-block;
+        width: 100px;
+        height: 100px;
+        a{
+            color: #afafb8;
+        }
+    ul:hover{
+        color: white;
+    }
+    }
+    }
+}
+.hcyy_bigbox{
+    width: 1200px;
+    margin: 0 auto;
+}
+.hcyy_box2{
+    text-align: left;
+    margin: 30px 0 14px 0;
+    span{
+        font-family: "微软雅黑";
+        font-size: 16px;
+    }
+}
+.hcyy{
+    display: inline-block;
+}
+.hsjx{
+    width: 4px;
+    height: 20px;
+    background: red;
+    display: inline-block;
+}
+.dianying_box{
+    display: inline-block;
+    ul{
+       display: inline-block;
+        li{
+        display: inline-block;
+        font-size: 14px;
+        font-family: "微软雅黑";
+        display: inline-block;
+        a{
+            color: black;
+        }
+    }
+    }
+}
+.hcyy .gengduo{
+    display: inline-block;
+}
+.tidaobianyuan_box{
+    margin-left: 10px;
+}
+.gengduo{
+    a{
+        color: black;
+    }
+}
+
+////////////////////////////////
+//剃刀边缘
+.huachengyingyuan_tp{
+    margin: 16px 0;
+    width: 100%;
+    height: 320px;
+}
+.shibingtuji{
+    width: 182px;
+}
+.tidaobianyuan{
+    width: 720px;
+    .tidaobianyuan_tp{
+        width: 231px;
+        height: 154px;
+        margin:0 5px 5px 0;
+        img{
+            width: 100%;
+        }
+    }
+}
+.xinsheng_tp{
+    width: 1200px;
+    img{
+        width: 100%;
+    }
+}
+/////////////////////////////
+//漂洋过海来看你
+.tjmv_bigbox{
+    width: 720px;
+    margin: 0 25px 0 0 ;
+}
+.pyghlkn{
+    display: inline-block;
+}
+
+.pyghlkn_box{
+    display: inline-block;
+    width: 232px;
+}
+
+.regebang_bigbox{
+    display: inline-block;
+    width: 454px;
+}
+.hongsejinqu li .hsjq{
+    color: red;
+}
+.hongsejinqu li a:hover{
+    color: red;
+    background: white;
+}
+.hcyy{
+    padding-bottom: 10px;
+}
+.juanzhulian{
+    border-left: 1px solid #ebe8e5;
+    border-top: 1px solid #ebe8e5;
+    p{
+        display: inline-block;
+        width: 14px;
+        height: 18px;
+        background: red;
+        margin: 15px 20px 0 12px;
+        text-align: center; 
+        font-size: 12px;
+        font-family: "微软雅黑";
+        color: white;
+    }
+    span{
+        font-size: 14px;
+        font-family: "微软雅黑";
+        a{
+            color: black;
+            &:hover{
+                color: red;
+            }
+        }
+    }
+    
+    
+}
+
+.sjdqnl{
+    border-left: 1px solid #ebe8e5;
+    p{
+        display: inline-block;
+        width: 14px;
+        height: 18px;
+        background: #ff4e00;
+        margin: 15px 20px 0 12px;
+        text-align: center; 
+        font-size: 12px;
+        font-family: "微软雅黑";
+        color: white;
+    }
+    span{
+        font-size: 14px;
+        font-family: "微软雅黑";
+        a{
+            color:black;
+            &:hover{
+            color: red;
+            }
+        }
+    }
+}
+.wanglikun{
+    border-left: 1px solid #ebe8e5;
+    p{
+        display: inline-block;
+        width: 14px;
+        height: 18px;
+        background:#ff9000;
+        margin: 15px 20px 0 12px;
+        text-align: center; 
+        font-size: 12px;
+        font-family: "微软雅黑";
+        color: white;
+    }
+    span{
+        font-size: 14px;
+        font-family: "微软雅黑";
+        a{
+            color:black;
+            &:hover{
+            color: red;
+            }
+        }
+    }
+}
+.zhengyueshiwu{
+    border-left: 1px solid #ebe8e5;
+    p{
+        display: inline-block;
+        width: 14px;
+        height: 18px;
+        border: 1px solid #dddddd;
+        background: white;
+        margin: 15px 20px 0 12px;
+        text-align: center; 
+        font-size: 12px;
+        font-family: "微软雅黑";
+    }
+    span{
+        font-size: 14px;
+        font-family: "微软雅黑";
+        a{
+            color:black;
+            &:hover{
+            color: red;
+            }
+        }
+    }
+}
+
+.yunhuangji_bigbox{
+    padding: 20px 0;
+}

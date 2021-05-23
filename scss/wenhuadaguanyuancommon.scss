@@ -1,0 +1,192 @@
+@charset "utf-8";
+.shuyuan{
+    width:100%;
+    margin: 0 auto;
+    text-align: center;
+    .shangbian{
+        display: inline-block;
+        width: 1200px;
+        height: 80px;
+        background: white;
+        vertical-align: middle;
+        .hcsd{
+                font-size: 30px;
+                font-family: "微软雅黑";
+                font-weight: bold;
+                color: #e74c3c;
+                display: inline-block;
+                vertical-align: middle;
+        }
+    }
+}
+
+//搜索框
+
+.search form {
+  width: 100%;
+//height: 80px;
+  border: 1px solid red;
+}
+
+.search {
+    display: inline-block;
+    margin: 0 160px 0 200px;
+ }
+
+.search .search_input {
+  width: 252px;
+  height: 40px;
+  vertical-align: middle;
+  padding: 0 3px;
+  border: none;
+  outline: none;
+  background: white;
+}
+.search .search_btn{
+    width: 64px;
+    height: 40px;
+    vertical-align: middle;
+    display: inline-block;
+    font-size: 18px;
+    text-align: center;
+    line-height: 40px;
+    color: white;
+    background: red;
+    margin-right: -1px;
+}
+.search input{
+    border:none;
+}
+
+.header_box {
+    width: 272px;
+    height: 80px;
+    font-size: 12px;
+    vertical-align: middle;
+    display: inline-block;
+    .header_top {
+        margin-top: 26px;
+    }
+    .header_swsy,
+    .header_zhuce,.header_denglu {
+        display: inline-block;
+        vertical-align: middle;
+        margin-top: 4px;
+    }
+    .denglu_logo{
+        display: inline-block;
+        vertical-align: middle;
+        padding-top: 8px;
+    }
+    .denglu_logo img{
+        width: 13px;    
+    }
+    .header_denglu a{
+        color: #888888;
+    }
+        
+    .header_swsy a {
+        color: #888888;
+    }
+    .header_zhuce a {
+        color: #888888;
+    }
+    .header_swsy a:hover {
+        color:#c10000;
+    }
+    .header_zhuce a:hover {
+        color: #c10000;
+    }
+    .header_denglu a:hover{
+        color:#c10000;
+    }
+    .header_shuxian{
+        display: inline-block;
+        width: 1px;
+        height: 14px;
+        background: #888888;
+        margin-top: 4px;
+        vertical-align: middle;
+        margin-left:8px ;
+        margin-right: 8px;
+    }
+    
+}
+
+//导航栏
+.daohang_red_box{
+    width: 100%;
+    background: red;
+}
+.shuyuan .daohang_box{
+    width: 100%;
+    height: 46px;
+    ul{
+    display: inline-block;
+        li{
+            display: inline-block;
+            font-family: "微软雅黑";
+            font-size: 16px;
+            line-height: 46px;
+            text-align: center;
+            padding: 0 5px;
+            &:hover{
+                background: #c43728;
+            }
+                a{
+                     color: white;
+                }
+            }
+    
+        }
+}
+.shuyuan .daohang_box ul li:nth-of-type(1){
+    background: #c43728;
+}
+.sysp{
+    display: inline-block;
+}
+.szgwsy{
+    display: inline-block;
+    color: white;
+}
+////////////////////////////////////
+footer{
+         background: white;
+        .weibu{
+            height: 130px;
+            .weibu_top{
+                font-size: 14px;
+                font-family: "微软雅黑";
+                color: #b8b8b8;
+                text-align: center;
+                padding-top: 35px;
+            }
+            .weibu_middle{
+                font-size: 14px;
+                font-family: "微软雅黑";
+                color: #b8b8b8;
+                text-align: center;
+                margin-top: 12px;
+            }
+            .weibu_bottom{
+                text-align: center;
+                margin-top: 17px;
+                div{
+                    display: inline-block;
+                    p{
+                        display: inline-block;
+                        font-size: 14px;
+                        font-weight: bold;
+                        font-family: "微软雅黑";
+                        color: #888888;
+                    }
+                    nav{
+                        display: inline-block;
+                        color: #565656;
+                        font-weight: bold;
+                    }
+                }
+            }
+        }
+    }

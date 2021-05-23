@@ -1,0 +1,104 @@
+@charset "utf-8";  
+@import "xuanchuan_init.scss";
+@import "xuanchuan_common.scss";
+.shipinye{
+    width: 1200px;
+    margin: 0 auto;
+    
+    .shipinye_taitou p{
+        color: #888888;
+        font-size: 14px;
+        padding: 19px 0 29px 0;
+        
+    }
+}
+.neirong_liebiao{
+    line-height: 40px;
+}
+.neirong_liebiao ul li::before{
+    content: "";
+    width: 2px;
+    height: 2px;
+    background: #2f6698;
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 2px;
+    margin-right: 11px;
+    margin-left: 12px;
+}
+.neirong_liebiao ul li a{
+    color: #333333;
+    font-size: 14px;
+}
+.xiahuaxian{
+    width: 1180px;
+    margin: 0 auto;
+    border-top: 1px dashed #AAAAAA;
+    margin-top: 33px;
+}
+.neirong_span span{
+    color: #888888;
+    font-size: 12px;
+}
+.neirong_liebiao ul li a:hover{
+    color: #D60000;
+}
+//--------------------------------翻页按钮---------------------
+.yemianlianjie_box{
+    width: 1200px;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+    margin-bottom: 40px; 
+    margin-top: 40px;   
+}
+.yemianlianjie_yi{
+    display: inline-block;
+    width: 46px;
+    height: 46px;
+    text-align: center;
+    line-height: 46px;
+}
+.yemianlianjie_yi button{
+        color: white;
+        background: #12619a;
+        width: 46px;
+        height: 46px;
+        border: none;
+        cursor: pointer;
+}
+.yemianlianjie_houxu{
+    display: inline-block;
+    width: 46px;
+    height: 46px;
+    text-align: center;
+    line-height: 46px;
+}  
+.yemianlianjie_houxu button{
+        color: #888888;
+        background: white;
+        width: 46px;
+        height: 46px;
+        border: none;
+        cursor: pointer;
+        vertical-align: middle;
+}
+.jiantou{
+        width: 46px;
+        height: 46px;
+        line-height: 46px;
+        position: absolute;
+        top: 2px;
+        right: 33%;
+        cursor: pointer;        
+}
+.yemianlianjie_houxu button:hover{
+    background: #12619a;
+    color: white;
+}
+.jiantou:hover::before{
+    color: white;
+}
+.jiantou:hover{
+    background: #12619a;
+}

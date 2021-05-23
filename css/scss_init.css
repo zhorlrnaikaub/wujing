@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none; }
+
+.fl {
+  float: left; }
+
+.fr {
+  float: right; }
+
+.clear::after {
+  content: "";
+  display: block;
+  clear: both; }
+
+/*# sourceMappingURL=scss_init.css.map */

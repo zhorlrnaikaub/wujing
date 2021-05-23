@@ -1,0 +1,98 @@
+@charset "UTF-8";
+@import url(../css/init.css);
+@import url(../css/xinliwang_common.css);
+.web section {
+  width: 1200px;
+  margin: 0 auto; }
+  .web section .top {
+    height: 50px;
+    font-size: 14px;
+    font-family: "微软雅黑";
+    color: #969797;
+    line-height: 50px;
+    width: 1200px;
+    margin: 0 auto; }
+  .web section .left_top {
+    width: 880px; }
+    .web section .left_top dl {
+      height: 18px;
+      width: 6px;
+      background: #2071c2;
+      margin-left: 12px;
+      margin-top: 14px;
+      display: inline-block; }
+    .web section .left_top p {
+      font-size: 16px;
+      font-weight: bold;
+      display: inline-block; }
+  .web section .left_bottom {
+    width: 880px;
+    display: inline-block; }
+    .web section .left_bottom .wenti {
+      margin-top: 40px; }
+      .web section .left_bottom .wenti div {
+        display: inline-block;
+        vertical-align: top; }
+        .web section .left_bottom .wenti div nav {
+          font-size: 14px;
+          color: #a7a8a8;
+          width: 700px;
+          margin-left: 14px;
+          padding-top: 20px; }
+        .web section .left_bottom .wenti div div a {
+          color: #5a7bb7;
+          font-size: 14px;
+          font-weight: bold;
+          padding-top: 10px;
+          margin-left: 14px; }
+  .web section .left {
+    width: 880px;
+    background: white;
+    display: inline-block; }
+
+.web .xuanye {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 33px; }
+  .web .xuanye div {
+    display: inline-block;
+    width: 46px;
+    height: 46px;
+    line-height: 46px; }
+  .web .xuanye p {
+    display: inline-block;
+    width: 46px;
+    height: 46px;
+    line-height: 46px; }
+  .web .xuanye div:hover {
+    color: white;
+    background: #0074c6; }
+
+.web section .right_1 .wentijieda {
+  background: white;
+  margin-left: 30px;
+  width: 290px; }
+  .web section .right_1 .wentijieda .wentijieda_top {
+    padding: 10px 0 10px 10px; }
+    .web section .right_1 .wentijieda .wentijieda_top p {
+      display: inline-block; }
+    .web section .right_1 .wentijieda .wentijieda_top div {
+      display: inline-block; }
+  .web section .right_1 .wentijieda .wentijieda_bottom {
+    text-align: center;
+    padding-bottom: 15px; }
+    .web section .right_1 .wentijieda .wentijieda_bottom p::before {
+      display: inline-block;
+      content: "";
+      width: 7px;
+      height: 7px;
+      background: #CCCCCC;
+      margin-right: 7px; }
+    .web section .right_1 .wentijieda .wentijieda_bottom p a {
+      color: #000000;
+      font-size: 14px;
+      font-family: "微软雅黑"; }
+    .web section .right_1 .wentijieda .wentijieda_bottom p a:hover {
+      color: dodgerblue; }
+
+/*# sourceMappingURL=xinliwang_zoujinxinli.css.map */

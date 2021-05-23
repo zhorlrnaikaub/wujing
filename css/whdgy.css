@@ -1,0 +1,200 @@
+@charset "UTF-8";
+.header_bigbox {
+  width: 100%;
+  display: inline-block; }
+
+.header_red_box {
+  height: 100px;
+  background: #d3d4e3;
+  text-align: center;
+  line-height: 100px; }
+  .header_red_box p {
+    display: inline-block;
+    font-family: "微软雅黑"; }
+  .header_red_box p:first-child {
+    font-size: 28px;
+    color: red; }
+  .header_red_box ul {
+    display: inline-block; }
+    .header_red_box ul li {
+      display: inline-block;
+      width: 100px;
+      height: 100px; }
+      .header_red_box ul li a {
+        color: #afafb8; }
+      .header_red_box ul li ul:hover {
+        color: white; }
+
+.hcyy_bigbox {
+  width: 1200px;
+  margin: 0 auto; }
+
+.hcyy_box2 {
+  text-align: left;
+  margin: 30px 0 14px 0; }
+  .hcyy_box2 span {
+    font-family: "微软雅黑";
+    font-size: 16px; }
+
+.hcyy {
+  display: inline-block; }
+
+.hsjx {
+  width: 4px;
+  height: 20px;
+  background: red;
+  display: inline-block; }
+
+.dianying_box {
+  display: inline-block; }
+  .dianying_box ul {
+    display: inline-block; }
+    .dianying_box ul li {
+      display: inline-block;
+      font-size: 14px;
+      font-family: "微软雅黑";
+      display: inline-block; }
+      .dianying_box ul li a {
+        color: black; }
+
+.hcyy .gengduo {
+  display: inline-block; }
+
+.tidaobianyuan_box {
+  margin-left: 10px; }
+
+.gengduo a {
+  color: black; }
+
+.huachengyingyuan_tp {
+  margin: 16px 0;
+  width: 100%;
+  height: 320px; }
+
+.shibingtuji {
+  width: 182px; }
+
+.tidaobianyuan {
+  width: 720px; }
+  .tidaobianyuan .tidaobianyuan_tp {
+    width: 231px;
+    height: 154px;
+    margin: 0 5px 5px 0; }
+    .tidaobianyuan .tidaobianyuan_tp img {
+      width: 100%; }
+
+.xinsheng_tp {
+  width: 1200px; }
+  .xinsheng_tp img {
+    width: 100%; }
+
+.tjmv_bigbox {
+  width: 720px;
+  margin: 0 25px 0 0; }
+
+.pyghlkn {
+  display: inline-block; }
+
+.pyghlkn_box {
+  display: inline-block;
+  width: 232px; }
+
+.regebang_bigbox {
+  display: inline-block;
+  width: 454px; }
+
+.hongsejinqu li .hsjq {
+  color: red; }
+
+.hongsejinqu li a:hover {
+  color: red;
+  background: white; }
+
+.hcyy {
+  padding-bottom: 10px; }
+
+.juanzhulian {
+  border-left: 1px solid #ebe8e5;
+  border-top: 1px solid #ebe8e5; }
+  .juanzhulian p {
+    display: inline-block;
+    width: 14px;
+    height: 18px;
+    background: red;
+    margin: 15px 20px 0 12px;
+    text-align: center;
+    font-size: 12px;
+    font-family: "微软雅黑";
+    color: white; }
+  .juanzhulian span {
+    font-size: 14px;
+    font-family: "微软雅黑"; }
+    .juanzhulian span a {
+      color: black; }
+      .juanzhulian span a:hover {
+        color: red; }
+
+.sjdqnl {
+  border-left: 1px solid #ebe8e5; }
+  .sjdqnl p {
+    display: inline-block;
+    width: 14px;
+    height: 18px;
+    background: #ff4e00;
+    margin: 15px 20px 0 12px;
+    text-align: center;
+    font-size: 12px;
+    font-family: "微软雅黑";
+    color: white; }
+  .sjdqnl span {
+    font-size: 14px;
+    font-family: "微软雅黑"; }
+    .sjdqnl span a {
+      color: black; }
+      .sjdqnl span a:hover {
+        color: red; }
+
+.wanglikun {
+  border-left: 1px solid #ebe8e5; }
+  .wanglikun p {
+    display: inline-block;
+    width: 14px;
+    height: 18px;
+    background: #ff9000;
+    margin: 15px 20px 0 12px;
+    text-align: center;
+    font-size: 12px;
+    font-family: "微软雅黑";
+    color: white; }
+  .wanglikun span {
+    font-size: 14px;
+    font-family: "微软雅黑"; }
+    .wanglikun span a {
+      color: black; }
+      .wanglikun span a:hover {
+        color: red; }
+
+.zhengyueshiwu {
+  border-left: 1px solid #ebe8e5; }
+  .zhengyueshiwu p {
+    display: inline-block;
+    width: 14px;
+    height: 18px;
+    border: 1px solid #dddddd;
+    background: white;
+    margin: 15px 20px 0 12px;
+    text-align: center;
+    font-size: 12px;
+    font-family: "微软雅黑"; }
+  .zhengyueshiwu span {
+    font-size: 14px;
+    font-family: "微软雅黑"; }
+    .zhengyueshiwu span a {
+      color: black; }
+      .zhengyueshiwu span a:hover {
+        color: red; }
+
+.yunhuangji_bigbox {
+  padding: 20px; }
+
+/*# sourceMappingURL=whdgy.css.map */
